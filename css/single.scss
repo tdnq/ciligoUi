@@ -1,0 +1,61 @@
+@charset "UTF-8";
+.my-nav-active{
+  border-bottom: 3px solid #1A73E8;
+  background-color: rgba(207, 196, 225, 0.18);
+}
+.my-nav-item{
+  a{
+    color: #555!important;
+  }
+  font-size: 14px!important;
+}
+
+.main-content{
+  h3{
+    font-size: 18px;
+    color: #2b3ebb;
+  }
+}
+.content-info{
+  font-size: 13px;
+  .btn-color-one{
+    background-color: #ff590a;
+    border-color: #ef4d00;
+  }
+  .btn-color-two{
+    background-color: #4f7fc1;
+    border-color: #4f7fc1;
+  }
+  .btn{
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+.card{
+  .btn-color-one{
+    background-color: #ff590a;
+    border-color: #ef4d00;
+  }
+  .btn-color-two{
+    background-color: #4f7fc1;
+    border-color: #4f7fc1;
+  }
+  .btn{
+    font-size: 13px;
+    font-weight: 500;
+  }
+  p{
+    font-size: 13px;
+  }
+}
+.download-items span{
+  display: inline-block;
+  font-size: 13px;
+}
+.hot-tv{
+  font-size: 13px;
+  color: #337ab7;
+}
+.color-black{
+  color: black;
+}

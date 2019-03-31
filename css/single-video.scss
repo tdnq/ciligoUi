@@ -1,0 +1,61 @@
+.my-bg{
+  background: url("../img/281af940-2312-11e8-8519-b7df95e9e780.png");
+  background-size: cover;
+}
+.video-introduction span{
+  display: inline-block;
+  text-indent: 2em;
+  font-size: 13px;
+}
+.info-head{
+  color: #999;
+  font-weight: 600;
+}
+.video-content{
+  .list-group-item{
+    border-width:0rem 0rem 0.02rem 0rem;
+    border-style: dotted;
+    margin-top: 0.1rem;
+    font-size: 13px;
+  }
+
+}
+.my-tab{
+  font-size: 1.1rem;
+}
+.my-tab-list{
+  display: inline-block;
+  cursor: pointer;
+  padding: 0.2rem 0.8rem;
+  margin: 1rem -0.28rem 0rem 0rem;
+  border-width:1px 0px 1px 0px;
+  border-color: #999;
+  border-style: solid;
+  &:last-child{
+    border-right: 1px solid #999;
+  }
+  &:first-child{
+    border-left: 1px solid #999;
+  }
+}
+.my-tab-list-active{
+  border-width:1px 1px 1px 1px;
+  border-color: #258dcd;
+  border-style: solid;
+  color: #258dcd;
+}
+.my-tab-content{
+  display: none;
+  font-size: 13px;
+  .btn{
+    font-size: 13px;
+    padding-right: 0.5rem!important;
+  }
+}
+.my-tab-content h6,.my-tab{
+  font-weight: 600;
+  font-size: 13px;
+}
+.font-green{
+  color: green;
+}

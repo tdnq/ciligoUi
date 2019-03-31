@@ -1,0 +1,61 @@
+.bg-bar{
+  background-color: #fafafa;
+}
+.container-fluid{
+  max-width: 1366px;
+  min-width: 300px;
+}
+.episode-list li{
+  width: 4rem;
+  height: 3rem;
+  text-align: center;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background:  #fbfcff;
+  margin: 0rem -0.28rem 0rem 0rem;
+  border: 1px solid  #dee1ec80;
+  cursor: pointer;
+  &:hover{
+    background: #effbfb;
+  }
+}
+.m-auto{
+  margin: auto;
+}
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.input-shadow{
+  box-shadow: 3px 3px 2px 0px #babdc6;
+}
+.form-control{
+  height: 44px;
+  border-radius: 0.25rem !important;
+  z-index: 1;
+}
+.input-group-prepend{
+  position: relative;
+  left: -2rem;
+  top:0.5rem;
+  z-index: 3;
+  cursor: pointer;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ced4da;
+  outline: 0;
+  box-shadow: 0 0 0 0rem white;
+}
+a{
+  text-decoration: none;
+  &:hover{
+    text-decoration-line: none;
+  }
+}
+.episode-list .badge{
+  z-index: 10;
+  top: -6px;
+  position: absolute;
+}

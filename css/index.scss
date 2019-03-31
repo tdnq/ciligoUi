@@ -1,0 +1,27 @@
+.index{
+  .hot-search{
+    font-size: 0.95rem;
+    .hot-search-header{
+      font-weight: 600;
+      color: #8b8b8b;
+    }
+    li{
+      display: inline-block;
+      margin-right: 0.5rem;
+    }
+    a{
+      color: #a6acb2;
+      &:hover{
+        color: rgba(0, 0, 0, 0.74);
+      }
+    }
+  }
+  .main-search{
+    margin: 50vh auto 30vh auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+}

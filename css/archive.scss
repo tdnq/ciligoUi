@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.object-key{
+  color: #00bd00;
+}
+.related-search{
+  td{
+    border-top: 0px;
+  }
+  a{
+    color: #898989;
+    &:hover{
+      color: black;
+    }
+  }
+}
+.archive-content{
+  .content-header{
+    font-size: 1.5rem;
+    font-family: '华文楷体';
+  }
+  .content-text{
+    font-size: 1.2rem;
+    font-family: '宋体';
+  }
+  .content-time{
+    font-size: 1.2rem;
+    font-family: '宋体';
+  }
+}

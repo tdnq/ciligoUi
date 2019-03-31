@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="description" content="磁力狗是全面的磁力链和网盘资源搜索引擎。通过对磁力链接和百度网盘等电视剧和电影资源进行深度的挖掘和整理，我们能够更快，更准确的获取资源信息">
+    <meta content="磁力狗是全面的磁力链和网盘资源搜索引擎。通过对磁力链接和百度网盘等电视剧和电影资源进行深度的挖掘和整理，我们能够更快，更准确的获取资源信息" name="description">
+    <meta name="keywords" content="磁力狗,BT，BT种子，磁力链,磁力链接,磁力搜索,网盘搜索,百度云搜索,在线电影免费观看,在线电视剧免费观看,热门电视剧,热门电影">
+    <title>磁力狗 - 全网视频资源搜索引擎</title>
+    <link rel="stylesheet" href="fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-4.1.3/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+</head>
+<body>
+<div class="container-fluid px-0 main-header border">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">美剧<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">美国电影</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">英剧</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">英国电影</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">欧剧</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">欧洲电影</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">日剧</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">日本电影</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">韩剧</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">韩国电影</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">港台剧</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">港台电影</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">大陆剧</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">大陆电影</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">VIP影视剧免费看</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="py-1 mt-3 main-search">
+        <div class="row pl-md-2">
+            <div class="col-xl-1 col-lg-1 col-md-2 col-sm-4 col-5 px-0 pt-lg-1 pt-xl-0 mx-auto mx-md-0">
+                <img src="img/logo.png" alt="磁力狗" class="img-fluid d-block mx-auto">
+            </div>
+            <div class="col-lg-5 col-md-8 col-sm-9 col-12 mx-auto mx-md-0 pt-md-1 pt-lg-0 mt-3 mt-md-0">
+                <form class="form-shadow">
+                    <div class="input-group">
+                        <input type="text" class="form-control input-shadow" placeholder="电影、电视剧、动漫、文档、软件..." aria-label="Username" aria-describedby="basic-addon1">
+                        <div class="input-group-prepend">
+                            <span style="color: #4285F4"><i class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+        <div class="bg-bar mt-3">
+            <nav class="nav offset-lg-1 offset-md-2 offset-sm-2">
+                <li class="nav-item my-nav-item my-nav-active py-2">
+                    <a class="nav-link" href="#">全部</a>
+                </li>
+                <li class="nav-item my-nav-item py-2">
+                    <a class="nav-link" href="#">磁链地址</a>
+                <li class="nav-item my-nav-item py-2">
+                    <a class="nav-link" href="#">百度网盘</a>
+                </li>
+                <li class="nav-item my-nav-item dropdown d-none d-sm-inline-block py-2">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                       aria-haspopup="true" aria-expanded="false">类型不限</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">视频</a>
+                        <a class="dropdown-item" href="#">音乐</a>
+                        <a class="dropdown-item" href="#">图片</a>
+                        <a class="dropdown-item" href="#">文档</a>
+                        <a class="dropdown-item" href="#">其它</a>
+                    </div>
+                </li>
+                <li class="nav-item my-nav-item dropdown d-none d-sm-inline-block py-2">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                       aria-haspopup="true" aria-expanded="false">综合排序</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">综合排序</a>
+                        <a class="dropdown-item" href="#">文件大小</a>
+                        <a class="dropdown-item" href="#">下载热度</a>
+                        <a class="dropdown-item" href="#">创建时间</a>
+                    </div>
+                </li>
+            </nav>
+        </div>
+        <div class="mt-3 offset-lg-1 offset-md-2 offset-sm-2">
+            <p class="result-count">找到 954 条结果，共 96 页</p>
+        </div>
+        <div class="main-content mt-4">
+            <div class="row">
+                <div class="col-xl-7 col-lg-8 col-md-11 col-sm-12 col-12 mx-auto">
+
+                    <div class="row">
+
+                        <div class="content-img col-lg-3 col-md-4 offset-md-1 col-sm-12 col-12 text-center text-md-left">
+                            <h3 class="ml-2">海王 - 免费在线观看</h3>
+                            <div><img src="img/0af6da40-3f0f-11e9-aed9-b9bdc7b99ec8.jpg"
+                                                      alt="feature-img" class="img-fluid d-block mx-auto feature-img"></div>
+                        </div>
+                        <div class="content-info col-lg-7 col-md-6 col-sm-9 col-12 mt-4">
+                            <div class="item-age mt-1"><span><strong>年代：</strong></span>2018</div>
+                            <div class="item-category mt-1"><span><strong>类型：</strong></span>动作 / 奇幻 / 冒险</div>
+                            <div class="item-comment mt-1"><span><strong>评分：</strong></span><a href="">豆瓣 7.7
+                                分（474178人评论）</a></div>
+                            <div class="item-address mt-1"><span><strong>地区/国家：</strong></span>美国 / 澳大利亚</div>
+                            <div class="item-watch-time mt-1"><span><strong>上映时间：</strong></span>2018-12-07(中国大陆) /
+                                2018-12-21(美国)
+                            </div>
+                            <div class="item-other-name mt-1"><span><strong>又名：</strong></span>水行侠(港/台) / 潜水侠 / 水人 /
+                                人鱼哥(豆友译名)
+                            </div>
+                            <div class="item-introduction mt-1"><span><strong>简介：</strong></span>许多年前，亚特兰蒂斯女王（妮可·基德曼
+                                Nicole Kidman 饰）和人类相知相恋，
+                                共同孕育了爱情的结晶——后来被陆地人称为海王的亚瑟·库瑞（杰森·莫玛 Jason Momoa 饰）。
+                                在成长的过程中，亚瑟接受海底导师维科（威廉·达福 Willem Dafoe 饰）的严苛训练，时刻渴望去看望母亲，
+                                然而作为混血的私生子这却是奢望。与此同时，亚瑟的同母异父兄弟奥姆（帕特里克·威尔森 Patrick Wilson 饰）成为亚特兰蒂斯的国王，
+                                他不满陆地人类对大海的荼毒与污染，遂谋划联合其他海底王国发动对陆地的全面战争。 宿命推动着亚瑟，去寻找失落已久的三叉戟，
+                                建立一个更加开明的海底王国……©豆瓣
+                                <span class="read-more"><a href="">更多>></a></span>
+                            </div>
+                            <div class="content-btn text-center text-md-left">
+                                <button class="btn mr-2 mt-2 btn-color-one"><i class="fas fa-play" style="color: white">下载资源</i></button>
+                                <button class="btn mt-2 btn-color-two"><i class="fas fa-download" style="color: white">下载资源</i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="download-items">
+                        <div class="download mt-3 border-left border offset-xl-1">
+                            <div class="mb-2 mb-sm-3"><span><button class="btn btn-light px-3">海王</button></span></div>
+                            <div class="pl-2 pb-2">
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span class="mr-2 ml-1"
+                                                                                    style="color:#ff4a63"><i
+                                        class="fas fa-magnet"></i></span>[磁力链接]</span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>文件大小：</span><span>1.55G</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>数量：</span><span>2</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>创建时间：</span><span>2018-12-08</span></span>
+                            </div>
+                        </div>
+                        <div class="download mt-3 border offset-xl-1">
+                            <div class="mb-2 mb-sm-3"><span><button class="btn btn-light px-3">海王星</button></span></div>
+                            <div class="pl-2 pb-2">
+                            <span class="download-item mr-1 mr-md-3 mt-2">
+                                <i class="iconfont iconBaidu" style="color: #5771ff;font-size: 1.5rem"></i>
+                                <span>[百度云盘]</span>
+                            </span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>文件大小：</span><span>1.55G</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>数量：</span><span>2</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>创建时间：</span><span>2018-12-08</span></span>
+                            </div>
+                        </div>
+                        <div class="border download mt-3 offset-xl-1">
+                            <div class="mb-2 mb-sm-3"><span><button class="btn btn-light px-3">海王星.rar</button></span>
+                            </div>
+                            <div class="pl-2 pb-2">
+                            <span class="download-item mr-2 mr-md-3 mt-2">
+                                <i class="iconfont iconBaidu" style="color: #5771ff;font-size: 1.5rem"></i>
+                                <span>[百度云盘]</span>
+                            </span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>文件大小：</span><span>1.55G</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>数量：</span><span>2</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>创建时间：</span><span>2018-12-08</span></span>
+                            </div>
+                        </div>
+                        <div class="border download mt-3 offset-xl-1">
+                            <div class="mb-2 mb-sm-3"><span><button class="btn btn-light px-3">海王星.rar</button></span>
+                            </div>
+                            <div class="pl-2 pb-2">
+                            <span class="download-item mr-1 mr-md-3 mt-2">
+                                <i class="iconfont iconBaidu" style="color: #5771ff;font-size: 1.5rem"></i>
+                                <span>[百度云盘]</span>
+                            </span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>文件大小：</span><span>1.55G</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>数量：</span><span>2</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>创建时间：</span><span>2018-12-08</span></span>
+                            </div>
+                        </div>
+                        <div class="border download mt-3 offset-xl-1">
+                            <div class="mb-2 mb-sm-3"><span><button class="btn btn-light px-3">海王星.rar</button></span>
+                            </div>
+                            <div class="pl-2 pb-2">
+                            <span class="download-item mr-1 mr-md-3 mt-2">
+                                <i class="iconfont iconBaidu" style="color: #5771ff;font-size: 1.5rem"></i>
+                                <span>[百度云盘]</span>
+                            </span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>文件大小：</span><span>1.55G</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>数量：</span><span>2</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>创建时间：</span><span>2018-12-08</span></span>
+                            </div>
+                        </div>
+                        <div class="border download mt-3 offset-xl-1">
+                            <div class="mb-2 mb-sm-3"><span><button class="btn btn-light px-3">海王星.rar</button></span>
+                            </div>
+                            <div class="pl-2 pb-2">
+                            <span class="download-item mr-1 mr-md-3 mt-2">
+                                <i class="iconfont iconBaidu" style="color: #5771ff;font-size: 1.5rem"></i>
+                                <span>[百度云盘]</span>
+                            </span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>文件大小：</span><span>1.55G</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>数量：</span><span>2</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>创建时间：</span><span>2018-12-08</span></span>
+                            </div>
+                        </div>
+                        <div class="border download mt-3 offset-xl-1">
+                            <div class="mb-2 mb-sm-3"><span><button class="btn btn-light px-3">海王星.rar</button></span>
+                            </div>
+                            <div class="pl-2 pb-2">
+                            <span class="download-item mr-1 mr-md-3 mt-2">
+                                <i class="iconfont iconBaidu" style="color: #5771ff;font-size: 1.5rem"></i>
+                                <span>[百度云盘]</span>
+                            </span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>文件大小：</span><span>1.55G</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>数量：</span><span>2</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>创建时间：</span><span>2018-12-08</span></span>
+                            </div>
+                        </div>
+                        <div class="border download mt-3 offset-xl-1">
+                            <div class="mb-2 mb-sm-3"><span><button class="btn btn-light px-3">海王星.rar</button></span>
+                            </div>
+                            <div class="pl-2 pb-2">
+                            <span class="download-item mr-1 mr-md-3 mt-2">
+                                <i class="iconfont iconBaidu" style="color: #5771ff;font-size: 1.5rem"></i>
+                                <span>[百度云盘]</span>
+                            </span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>文件大小：</span><span>1.55G</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>数量：</span><span>2</span></span>
+                                <span class="download-item mr-1 mr-md-3 mt-2"><span>创建时间：</span><span>2018-12-08</span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-0 pr-0 text-center mt-3">
+                        <nav aria-label="Page navigation example" class="d-inline-block">
+                            <ul class="pagination justify-content-end">
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-11 col-sm-12 col-12 mt-3 mt-sm-0 mx-auto px-0">
+                    <div class="card mb-2" style="max-width: 768px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">海贼王</h5>
+                                    <p class="card-text result-count">喜剧/动作/动画 · 日本 · 航海王/One Piece</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="img/12182670-3f10-11e9-aed9-b9bdc7b99ec8.jpg" class="card-img"
+                                     alt="feature-img">
+                            </div>
+                        </div>
+                        <div class="border-bottom border-top py-2 pl-2">
+                            <button class="btn btn-color-one py-1 px-3"><i class="fas fa-play" style="color: white"></i></button>
+                            <span class="play-font">播放影片</span>
+                        </div>
+                        <div>
+                            <p class="p-2">传奇海盗哥尔•D•罗杰在临死前曾留下关于其毕生的财富“One Piece”的消息，由此引得群雄并起，众海盗们为了这笔传说中的巨额财富展开争夺，
+                                各种势力、政权不断交替，整个世界进入了动荡混乱的“大海贼时代”。 生长在东海某小村庄的路飞受到海贼香克斯的精神指引，决定成为一名出色的海盗。
+                                为了达成这个目标，并找到万众瞩目的One Piece，路飞踏上艰苦的旅程。一路上他遇到了无数磨难，也结识了索隆、娜美、乌索普、香吉、罗宾等一众性格各异的好友。
+                                他们携手一同展开充满传奇色彩的大冒险…… 本片根据日本漫画家尾田荣一郎超人气漫画原作《One Piece》改编。©豆瓣</p>
+                        </div>
+                    </div>
+
+                    <div class="hot-tv mt-3">
+                        <ul class="list-group mt-3">
+                            <li class="list-group-item color-black">
+                                <strong>热门电视剧</strong>
+                            </li>
+                            <li class="list-group-item bg-bar">
+                                <span class="float-left"><strong>排名</strong></span>
+                                <span class="float-right"><strong>搜索指数</strong></span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-danger">1</span>
+                            <span>倚天屠龙记</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: red"><i
+                                        class="fas fa-arrow-up"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-success">2</span>
+                            <span>都挺好</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-warning">3</span>
+                            <span>黄金瞳</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-info">4</span>
+                            <span>芝麻胡同</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-info">5</span>
+                            <span>大人物</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-info">6</span>
+                            <span>十年三月三十日</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-info">7</span>
+                            <span>独孤皇后</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-info">8</span>
+                            <span>逆流而上的你</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-info">9</span>
+                            <span>老中医</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-info">10</span>
+                            <span>知否知否应是绿肥红瘦</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hot-tv mt-3">
+                        <ul class="list-group mt-3">
+                            <li class="list-group-item color-black">
+                                <strong>热门电影</strong>
+                            </li>
+                            <li class="list-group-item bg-bar">
+                                <span class="float-left"><strong>排名</strong></span>
+                                <span class="float-right"><strong>搜索指数</strong></span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-danger">1</span>
+                            <span>倚天屠龙记</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: red"><i
+                                        class="fas fa-arrow-up"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-success">2</span>
+                            <span>都挺好</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-warning">3</span>
+                            <span>黄金瞳</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-info">4</span>
+                            <span>芝麻胡同</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-info">5</span>
+                            <span>大人物</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-info">6</span>
+                            <span>十年三月三十日</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-info">7</span>
+                            <span>独孤皇后</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-info">8</span>
+                            <span>逆流而上的你</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-info">9</span>
+                            <span>老中医</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                            <li class="list-group-item">
+                        <span class="float-left">
+                            <span class="badge badge-info">10</span>
+                            <span>知否知否应是绿肥红瘦</span>
+                             </span>
+                                <span class="float-right">
+                            <span class="mr-1">1264</span><span style="color: green"><i
+                                        class="fas fa-arrow-down"></i></span>
+                        </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<script type="text/javascript" src="js/jquery-3.3.1.slim.min.js"></script>
+<script type="text/javascript" src="bootstrap-4.1.3/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/style.js"></script>
+</body>
+</html>
