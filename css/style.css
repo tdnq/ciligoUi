@@ -246,6 +246,12 @@ a {
 .bg-tip {
   background-color: #ffee8f; }
 
+.video-play .btn-one {
+  background-color: #dad7d7; }
+.video-play .btn-two {
+  background-color: #222;
+  color: #d0b314; }
+
 /*# sourceMappingURL=video.css.map */
 
 /*# sourceMappingURL=style.css.map */
